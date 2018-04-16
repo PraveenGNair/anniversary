@@ -1,0 +1,22 @@
+{
+  "name": "BdayWishes",
+  "version": "1.0.0",
+  "description": "anniversary",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gcloud app deploy",
+    "start": "node index.js",
+    "lint": "samples lint",
+    "pretest": "npm run lint",
+    "e2e-test": "samples test deploy"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+
+  "author": "praveen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
